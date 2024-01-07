@@ -1,0 +1,8 @@
+nome = input('Olá, como se chama:')
+print(type(nome))
+peso = int(input(f'Que legal {nome} e quando você pesa?'))
+print(type(peso))
+altura = float(input('E sua altura:'))
+print(type(altura))
+imc = peso / (altura * altura)
+print(f'Show {nome}, você tem {peso}.kg e {altura}.m, seu IMC é de {imc:.2f}')
